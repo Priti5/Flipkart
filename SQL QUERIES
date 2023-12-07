@@ -1,0 +1,11 @@
+SQL is used to communicate with a database. it includes Database Creation, Database Deletion, Fetching Data Rows, Modifying & Deleting Data.
+Queries-
+SELECT * FROM EMP;
+SELECT ENAME, HIREDATE FROM EMP;
+SELECT EMANE,DEPTNO,JOB FROM EMP WHERE JOB='CLERK';
+SELECT SAL, SAL*12, SAL*6 FROM EMP;
+SELECT * FROM DEPT;
+SELECT DISTINCT JOB,SAL FROM EMP;
+SELECT JOB FROM EMP;
+SELECT LOC FROM DEPT;
+
